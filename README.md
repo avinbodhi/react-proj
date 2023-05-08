@@ -68,3 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+day15 :
+
+third party implementation in project
+1. install Formik library for your project
+2. npm install formik --save
+3. [mit license] 
+4. export default function FormikDemo(){
+
+}
+5. Reflection library will get every information of class and properties 
+6. Import useFormik hook
+7. configure formik form with values and submit
+9. const formik = useFormik({
+    initialValues : {},
+    onSubmit: function(){
+        //action to perform 
+    }
+})
+10 . bind the values with form and fields handleSubmit value= formik.values.name
+11. 
